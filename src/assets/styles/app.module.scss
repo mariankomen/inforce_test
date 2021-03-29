@@ -1,0 +1,9 @@
+.main_block {
+  width: 100px;
+  height: 100px;
+  border: 1px solid green;
+
+  &_test {
+    font-size: 10rem;
+  }
+}
