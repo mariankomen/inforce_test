@@ -1,0 +1,15 @@
+.content_main {
+  display: grid;
+  grid-template-columns: 2.75fr 1.25fr;
+
+  &__block_1{
+    border: 1px solid red;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__block_2{
+    border: 1px solid blue;
+    height: 100%;
+  }
+}
