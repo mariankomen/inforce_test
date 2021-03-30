@@ -1,9 +1,9 @@
-import React from 'react';
+import React, {useContext} from 'react';
 
 import styles from '../../../assets/styles/productItem.module.scss'
 
+const EditComponent = (props) => {
 
-const ProductItem = (props) => {
 
     return (
         <div className={styles.product}>
@@ -39,4 +39,4 @@ const ProductItem = (props) => {
     );
 };
 
-export default ProductItem;
+export default EditComponent;
